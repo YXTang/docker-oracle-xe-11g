@@ -1,4 +1,4 @@
-FROM ubuntu:last
+FROM ubuntu:18.04
 
 COPY assets /assets
 RUN /assets/setup.sh
